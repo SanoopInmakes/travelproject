@@ -1,0 +1,251 @@
+
+        h1{
+            text-align:center;
+            padding:10px;
+         }
+
+        fieldset{
+             border: 2px solid black;
+             background-color:rgba(180,136,203,0.6);
+             width: 550px;
+             margin:auto;
+             float: center;
+             padding:2%
+                 }
+
+        #nm,#em,#phonenum,#password,#confirm_password{width:100%}
+        #male,#female,#others{width:10%}
+
+        input{line-height:2.5;margin-bottom:2%;background-color:white;border:2px solid gray;font-size:12px;}
+
+        h2{text-align:center;}
+        h5,#lb{background-color:red;text-align:center;color:white;}
+
+
+        #btn{width:100%;font-size:25px;line-height:35px;background-color:green;color:white;font-family:arial;
+        font-size:15px}
+-----------------------
+
+.header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+
+
+}
+.header_content
+{
+
+
+    list-style-type:none; /*to remove bullets*/
+    text-align: center;
+    margin-left: 0%;
+    padding: 0px;
+    width: 100%;
+
+
+	width: 100%;
+	height: 148px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.header.scrolled
+{
+	background: gray;
+}
+.header.scrolled .header_content
+{
+	height: 190px;
+}
+.header_content_inner
+{
+position: fixed;
+	width: 100%;
+}
+.logo a
+{
+position: fixed;
+float: left;
+font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	color: #FFFFFF;
+	white-space: nowrap;
+    padding: 5px;
+    width: 150px;
+    margin-left: auto ;
+    margin-right: auto ;
+	position: relative;
+	color: #FFFFFF;
+	line-height: 0.75;
+}
+.main_nav
+{
+    position: fixed;
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+	margin-left: 242px;
+}
+
+.main_nav ul {
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    margin-left: 0%;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+    }
+
+.main_nav ul li
+{
+ float: left;
+    font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	font-weight: 400;
+	color: #FFFFFF;
+	white-space: nowrap;
+    padding: 2px;
+    width: 75px;
+    margin-left: auto ;
+    margin-right: auto ;
+	position: relative;
+}
+.main_nav ul li::after
+{
+	display: block;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	top: -104px;
+	width: 2px;
+	height: 0px;
+	background: #FFFFFF;
+	content: '';
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.main_nav ul li.active::after,
+.main_nav ul li:hover::after
+{
+	height: 100px;
+	visibility: visible;
+	opacity: 1;
+}
+.main_nav ul li:not(:last-child)
+{
+	margin-right: 54px;
+}
+.main_nav ul li a
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFFFF;
+	white-space: nowrap;
+}
+.header_phone
+{
+    float:right;
+	margin-right: 60px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	width: 75px;
+    position: relative;
+	color: #FFFFFF;
+}
+.header_social
+{
+	position: absolute;
+	top: 0;
+	right: 119px;
+	height: 148px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.header_social.scrolled
+{
+	height: 90px;
+}
+.header_social ul
+{
+	margin-top: 6px;
+}
+.header_social ul li:not(:last-child)
+{
+	margin-right: 32px;
+}
+.header_social ul li a i
+{
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.header_social ul li a i:hover
+{
+	color: rgba(255,255,255,0.5);
+}
+.hamburger
+{
+	display: none;
+}
+.hamburger i
+{
+	font-size: 20px;
+	color: rgba(255,255,255,0.5);
+	cursor: pointer;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.hamburger:hover i
+{
+	color: rgba(255,255,255,1);
+}
+-------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

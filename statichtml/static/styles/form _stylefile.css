@@ -1,0 +1,67 @@
+
+        h1{
+            text-align:center;
+            padding:10px;
+         }
+
+        fieldset{
+             border: 2px solid black;
+             background-color:rgba(180,136,203,0.6);
+             width: 550px;
+             margin:auto;
+             float: center;
+             padding:2%
+                 }
+
+        #nm,#em,#phonenum,#password,#confirm_password{width:100%}
+        #male,#female,#others{width:10%}
+
+        input{line-height:2.5;margin-bottom:2%;background-color:white;border:2px solid gray;font-size:12px;}
+
+        h2{text-align:center;}
+        h5,#lb{background-color:red;text-align:center;color:white;}
+
+
+        #btn{width:100%;font-size:25px;line-height:35px;background-color:green;color:white;font-family:arial;
+        font-size:15px}
+
+.navbar {
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+
+}
+li::before {content: "•"; color: red;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+li a{
+    color: white;
+    }
+.navbar ul {
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+.navbar li{
+    float: left;
+    padding: 2px;
+    width: 140px;
+    margin-left:20%;
+    margin-right: auto;
+}
+.header.scrolled
+{
+	background: rgba(24,24,24,0.6);
+}
+.header.scrolled .header_content
+{
+	height: 90px;
+}
+.header_content_inner
+{
+
+	width: 100%;
+}
